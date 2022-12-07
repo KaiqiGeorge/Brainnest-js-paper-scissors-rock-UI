@@ -63,7 +63,7 @@ function checkWinner() {
     reset();
   } else if ((playerScore = 5 && computerScore < 5)) {
     alert(`You Won! The final score is 5:${computerScore} `);
-    prompt("Shall we play again?");
+    confirm("Shall we play again?");
     reset();
   }
 }
